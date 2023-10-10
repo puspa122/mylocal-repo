@@ -1,0 +1,10 @@
+to write a function with object and key and get value
+
+
+
+$exam = @{2 = (4,3,3); 3 = (4,5,1)}
+
+foreach($item in $exam.GetEnumerator()){
+    echo $item.key
+    echo $item.value
+}
